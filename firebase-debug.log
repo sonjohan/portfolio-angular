@@ -1,0 +1,25 @@
+[debug] [2020-02-10T21:45:16.911Z] ----------------------------------------------------------------------
+[debug] [2020-02-10T21:45:16.913Z] Command:       /usr/local/bin/firebase /home/johan/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase serve
+[debug] [2020-02-10T21:45:16.913Z] CLI Version:   7.12.1
+[debug] [2020-02-10T21:45:16.913Z] Platform:      linux
+[debug] [2020-02-10T21:45:16.913Z] Node Version:  v12.13.1
+[debug] [2020-02-10T21:45:16.913Z] Time:          Mon Feb 10 2020 16:45:16 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-10T21:45:16.913Z] ----------------------------------------------------------------------
+[debug] [2020-02-10T21:45:16.913Z] 
+[debug] [2020-02-10T21:45:16.917Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-10T21:45:16.917Z] > authorizing via signed-in user
+[debug] [2020-02-10T21:45:16.917Z] [iam] checking project portfolio-5e57b for permissions ["firebase.projects.get"]
+[debug] [2020-02-10T21:45:16.918Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-5e57b:testIamPermissions  
+
+[debug] [2020-02-10T21:45:17.508Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-10T21:45:17.510Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-5e57b  
+ 
+[debug] [2020-02-10T21:45:18.118Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/johan/portfolio'...
+[info] 
+[debug] [2020-02-10T21:45:18.123Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-5e57b/webApps/-/config  
+ 
+[debug] [2020-02-10T21:45:18.731Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
